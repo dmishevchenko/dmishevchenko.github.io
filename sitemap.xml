@@ -21,6 +21,10 @@
   </url>
   
   <url>
+    <loc>https://github.com/dmishevchenko/Ivolv/home/</loc>
+  </url>
+  
+  <url>
     <loc>https://github.com/dmishevchenko/Ivolv/tags/</loc>
     <priority>0</priority>
   </url>
