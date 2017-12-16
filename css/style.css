@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.header {
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: black;
+    padding: 40px 0;
+}
+.header .item {
+    padding: 10px 0;
+    font-size: 20px;
+}
+ .navb, .navb:hover , .navb:active{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.sign-in {
+    width: 170px;
+    height: 50px;
+    font-family: 'Antic Didone', serif;
+    border: 3px solid #2a628a;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.sign-in i {
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+.logo img {
+    height: 55px;
+    width: 160px;
+}
+
+
+.header {
+    font-family: 'Antic Didone', serif;
+}
+
+.slider {
+    background: url(img/slider-bg.png);
+    padding: 130px 0 70px 0;
+    height: 450px;
+}
+
+.wrapper {
+    color: white;
+    display: flex;
+}
+
+.left {
+    flex-basis: 25%;
+}
+
+.item span {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+}
+
+.title {
+    font-family: 'Antic Didone', serif;
+    font-size: 50px;
+}
+
+.right {
+    flex-basis: 75%;
+}
+
+.left img {
+    margin-left: 120px;
+    position: relative;
+    bottom: 35px;
+}
+
+.carousel-indicators li {
+    margin: 5px 0 !important;
+    background: white !important;
+}
+
+.carousel-indicators .active {
+    width: 10px !important;
+    height: 10px !important;
+    background: #55c3ff !important;
+    border: 1px solid #55c3ff !important;
+}
+
+.carousel-indicators {
+    position: relative !important;
+    top: 60px !important;
+    left: 120px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.btn-down a,
+.btn-down a:hover,
+.btn-down a:active {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.btn-down img{
+    margin-left: 30px;
+    
+}
+.btn-down {
+
+    font-family: 'Libre Franklin Light', light;
+    font-size: 18px;
+    width: 100px;
+    margin: 100px auto;
+}
+
+.btn-down i {
+    margin-left: 28px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.three-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-flex-item {
+    margin: 2.5% 0;
+    height: 300px;
+    flex-basis: 30%;
+    padding: 100px 60px;
+     font-family: 'Antic Didone', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.two-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-flex-item {
+       padding: 100px 60px;
+     font-family: 'Antic Didone', serif;
+    font-size: 30px;
+    color: white;
+    margin: 2.5% 0;
+    height: 300px;
+    background: red;
+    flex-basis: 47.5%;
+
+}
+.three-flex-item:nth-child(1){
+    background: url(img/unleasing.png) center center no-repeat;
+}
+.three-flex-item:nth-child(2){
+    background: url(img/benefits.png) center center no-repeat;
+}
+.three-flex-item:nth-child(3){
+    background: url(img/intelligence.png) center center no-repeat;
+}
+.two-flex-item:nth-child(1){
+    background: url(img/Decisions.png) center center no-repeat;
+}
+.two-flex-item:nth-child(2){
+    background: url(img/revolution.png) center center no-repeat;
+}
+
+
+
+
+
+.one {
+    margin: 2.5% 0 5%;
+    height: 300px;
+    background: url(img/advantage.png) center center  no-repeat;
+     padding: 120px 60px;
+     font-family: 'Antic Didone', serif;
+    font-size: 30px;
+    color: white;
+}
+.one a,.two-flex-item a,.three-flex-item a{
+    text-decoration: none;
+    color: white;
+}
+.one a:hover,.two-flex-item a:hover,.three-flex-item a:hover{
+    text-decoration: none;
+    color: white;
+}
+.one a:active,.two-flex-item a:active,.three-flex-item a:active{
+    text-decoration: none;
+    color: white;
+}
+
+.line {
+    background: #a5b6c2;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background: url(img/bg%20footer.png) center center no-repeat;
+}
+
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    color: #42426d;
+    margin: 30px 0;
+}
+
+.main-flex-item {
+    text-align: left;
+    width: 16%;
+}
+
+.down-flex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #42426d;
+    margin: 30px 0;
+}
+
+.down-flex-item {
+    text-align: left;
+    flex-basis: 16%;
+
+}
+
+.down-flex-item a {
+    color: black;
+    margin: 10px 0;
+    display: block;
+}
+
+
+/*end home*/
+
+/*unleasing*/
+.square{
+    background: url(img/gradient-sq.png) left center no-repeat;
+    height: 600px;
+        background-size: contain;
+    background-position: 30px 70px;
+}
+.heading-text{
+    display: flex;
+    width: 50%;
+}
+.line{
+    height: 1px;
+    background: #4972a4;
+    margin: auto 0;
+    width: 15%;
+}
+.text{
+        font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    width:85%;
+    margin-left: 5px;
+}
+.square .title{
+    color: black;
+    margin: 35px 0;
+}
+
+.desc{
+      font-family: 'Libre Franklin Light', light;
+    font-size: 20px;
+    max-width: 45%;
+    padding: 40px;
+}
+.desc-all{
+     font-family: 'Libre Franklin Light', light;
+    font-size: 20px;
+    max-width: 100%;
+    padding: 40px;
+}
+.main-img img{
+    width: 100%;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+.btns .btn{
+    
+    width: 230px;
+    height: 60px;
+    border: 3px solid #2a628a;
+    border-radius: 60px;
+       font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    padding: 11px 70px;
+  
+}
+.btn a{
+    display: flex;
+      justify-content: space-between;
+    color: black;
+}
+.btn a:hover,.btn a:active{
+    text-decoration: none;
+    color: black;
+}
+.prev{
+    padding: 11px 50px !important;
+}
+.btn i{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.unl{
+    height: 1500px !important;
+}
+
+
+/*benefits*/
+
+.ben{
+    background: url(img/gradient%20%20ben.png) center center no-repeat;
+        
+    background-position: 30px 70px;
+    height: 100%;
+}
+.desc-ben{
+    max-width: 100% !important;
+    
+}
+.down-text{
+    width: 200px;
+}
+.down-text {
+    text-decoration: none;
+    color: black;
+        font-family: 'Libre Franklin Light', light;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btns-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*intelligence*/
+.int{
+     background: url(img/gradient%20int.png) center center no-repeat;
+        
+    background-position: 30px 70px;
+    height: 100%;
+}
+.int .main-img{
+    margin-top: 70px;
+}
+.int .title{
+    margin-top: 110px;
+}
+/*empower*/
+
+.emp{
+      background: url(img/gradient%20%20ben.png) center center no-repeat;
+        
+    background-position: 30px 70px;
+    height: 100%;
+}
+.emp .desc{
+    padding-bottom: 80px;
+    max-width: 100%;
+}
+.emp .title{
+    margin-top: 90px;
+}
+/*digital*/
+
+.dig{
+      background: url(img/gradient%20%20ben.png) center center no-repeat;
+        
+    background-position: 30px 70px;
+    height: 100%;
+    height: 100%;
+}
+.dig .title{
+padding-top: 60px;
+}
+.dig .desc{
+    padding-bottom: 90px;
+    padding-top: 60px;
+    max-width: 100%;
+}
