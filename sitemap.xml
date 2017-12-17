@@ -3,41 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/categories/</loc>
+    <loc>https://dmishevchenko.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/</loc>
+    <loc>https://dmishevchenko.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/benefits/</loc>
+    <loc>https://dmishevchenko.github.io/advantage/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/digital/</loc>
+    <loc>https://dmishevchenko.github.io/advantage1/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/empower/</loc>
+    <loc>https://dmishevchenko.github.io/benefits/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/home/</loc>
+    <loc>https://dmishevchenko.github.io/digital/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/intelligence/</loc>
+    <loc>https://dmishevchenko.github.io/empower/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/unleasing/</loc>
+    <loc>https://dmishevchenko.github.io/home/</loc>
   </url>
   
   <url>
-    <loc>https://github.com/dmishevchenko/Ivolv/tags/</loc>
+    <loc>https://dmishevchenko.github.io/intelligence/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dmishevchenko.github.io/unleasing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dmishevchenko.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

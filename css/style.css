@@ -397,3 +397,140 @@ padding-top: 60px;
     padding-top: 60px;
     max-width: 100%;
 }
+/*advantage*/
+ .desc-adv{
+    max-width: 100%;
+}
+.adv .title{
+    padding: 40px 0 0;
+}
+.adv{
+    background: url(img/gradient%20int.png) center center no-repeat;
+        
+    background-position: 30px 70px;
+    height: 100%;
+}
+.ind{
+    font-family: 'Antic Didone', serif;
+    font-size: 20px;
+}
+.itm{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 70%;
+    cursor: pointer;
+}
+#part-text,#corp-text{
+    display: none;
+}
+.line{
+    height: 1px;
+    width: 50px;
+}
+#why-text .sq{
+    background: url(img/adv1sq.png) center center no-repeat;
+      background-position: 30px 70px;
+    padding: 50px 0;
+}
+.int-bg{
+    background: url(img/adv1.png) bottom right no-repeat;
+}
+.sect .title{
+    padding: 40px 100px;
+}
+.sect{
+margin-bottom: 50px;
+margin-top: -130px;
+}
+.sect .desc{
+    padding: 40px 150px;
+    max-width: 75%;
+}
+.int-bg1{
+    margin: 50px 0;
+    background: url(img/adv2.png) center left no-repeat;
+}
+.int-bg1 .desc{
+    max-width: 80%;
+    padding: 100px 0 150px 35%;
+}
+.int-bg3 {
+    background: url(img/adv3.png) bottom right no-repeat;
+}
+.int-bg3 .desc{
+    padding: 100px 150px;
+}
+#part-text .sq{
+    background: url(img/gradient-sq.png) center center no-repeat;
+    background-position: 30px 70px;
+    padding: 50px 0;
+}
+.part-wrap{
+    display: flex;
+    padding: 10px 50px;
+}
+.logo-part{
+    flex-basis: 25%;
+}
+.logo-part img{
+    margin-left: 50px;
+}
+.desc-part{
+       font-family: 'Libre Franklin Light', light;
+    font-size: 16px;
+    flex-basis: 75%;
+}
+.hort {
+    margin: 50px 0;
+}
+#corp-text .sq{
+  background: url(img/corp-sq.png) center left no-repeat;
+    background-size:contain;
+    background-position: 40px 0px;
+}
+#corp-text .title{
+padding: 40px 70px;
+}
+.corp-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.corp-vis{
+    flex-basis: 45%;
+}
+.corp-vis .top{
+    display: flex;
+}
+.top-img{
+    flex-basis: 20%;
+}
+.top-text{
+    flex-basis: 80%;
+      font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    padding: 15px;
+    height: 50px;
+    border-bottom: 1px solid #acbec2;
+}
+.bot{
+    padding: 40px 0;
+    font-family: 'Libre Franklin Light', light;
+    font-size: 20px;
+}
+.values{
+    flex-basis: 100%;
+}
+.values .top-img{
+    flex-basis: 15%;
+}
+.val-text{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.val-text-itm{
+    flex-basis: 45%;
+     font-family: 'Libre Franklin Light', light;
+    font-size: 20px;
+}
