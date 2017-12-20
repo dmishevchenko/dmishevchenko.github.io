@@ -59,6 +59,9 @@ body {
 .left {
     flex-basis: 25%;
 }
+.sec{
+    height: 1500px;
+}
 
 .item span {
     font-family: 'Libre Franklin', sans-serif;
@@ -249,8 +252,7 @@ body {
 /*unleasing*/
 .square{
     background: url(img/gradient-sq.png) left center no-repeat;
-    height: 600px;
-        background-size: contain;
+    height: 100%;
     background-position: 30px 70px;
 }
 .heading-text{
@@ -258,6 +260,8 @@ body {
     width: 50%;
 }
 .line{
+    position: relative;
+    top: 8px;
     height: 1px;
     background: #4972a4;
     margin: auto 0;
@@ -348,6 +352,7 @@ body {
     font-weight: 400;
 }
 .btns-desc{
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -398,6 +403,15 @@ padding-top: 60px;
     max-width: 100%;
 }
 /*advantage*/
+#part .line{
+    opacity: 0;
+}
+#corp .line{
+    opacity: 0;
+}
+.sec-adv{
+    height: 2500px;
+}
  .desc-adv{
     max-width: 100%;
 }
@@ -423,10 +437,6 @@ padding-top: 60px;
 }
 #part-text,#corp-text{
     display: none;
-}
-.line{
-    height: 1px;
-    width: 50px;
 }
 #why-text .sq{
     background: url(img/adv1sq.png) center center no-repeat;
@@ -533,4 +543,102 @@ padding: 40px 70px;
     flex-basis: 45%;
      font-family: 'Libre Franklin Light', light;
     font-size: 20px;
+}
+/*industry*/
+.industry .title{
+    margin: 135px 100px 35px;
+}
+.industry{
+    height: 100%;
+    background: url(img/industrysq.png) left top no-repeat;
+    background-position: 240px 70px;
+}
+.banks-item{
+    background: url(img/banks.png) center center no-repeat !important;
+}
+.ban{
+    background-position: 30px 160px;
+}
+.ins-item{
+    background: url(img/ins.png) center center no-repeat !important;
+}
+.travel-item{
+    background: url(img/travel.png) center center no-repeat !important;
+}
+.transp-item{
+     background: url(img/transp.png) center center no-repeat !important;
+}
+.toggle{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.toggle-item{
+    flex-basis: 20%;
+    cursor:pointer;
+     font-family: 'Antic Didone', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+/*
+.toggle-item:focus,.toggle-item:hover{
+    color: #2a628a;
+    border-bottom: 1px solid #2a628a;
+}
+*/
+.toggle-item p{
+    position: relative;
+}
+.toggle-item p:hover{
+    color: #2a628a;
+}
+.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 30%;
+  border-bottom: 1px solid #2a628a;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.second-content{
+    display: none;
+}
+.toggle-content{
+    padding: 0 5% 5%;
+      font-family: 'Libre Franklin Light', light;
+    font-size: 18px;
+}
+.trav{
+    background-position: 30px 60px;
+}
+.trav .title{
+    margin-top: 100px;
+}
+.btn img{
+    margin: 0 20px;
+}
+.prev{
+    padding: 10px !important;
+}
+.prev a{
+    justify-content: center;
+}
+.next a{
+    justify-content: flex-start;
+}
+.btn:hover{
+    border: 3px dotted #2a628a;
 }
