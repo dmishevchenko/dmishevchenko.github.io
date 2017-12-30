@@ -3,69 +3,129 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dmishevchenko.github.io/categories/</loc>
+    <loc>https://ivolv-tech.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/</loc>
+    <loc>https://ivolv-tech.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/advantage/</loc>
+    <loc>https://ivolv-tech.com/aboutus/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/advantage1/</loc>
+    <loc>https://ivolv-tech.com/advantage/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/banks/</loc>
+    <loc>https://ivolv-tech.com/advantage1/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/benefits/</loc>
+    <loc>https://ivolv-tech.com/banks/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/digital/</loc>
+    <loc>https://ivolv-tech.com/benefits/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/empower/</loc>
+    <loc>https://ivolv-tech.com/amivos/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/home/</loc>
+    <loc>https://ivolv-tech.com/bivos/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/industry/</loc>
+    <loc>https://ivolv-tech.com/iivos/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/insurance/</loc>
+    <loc>https://ivolv-tech.com/consulting-services/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/intelligence/</loc>
+    <loc>https://ivolv-tech.com/technologies-services/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/transportation/</loc>
+    <loc>https://ivolv-tech.com/contactus/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/travel/</loc>
+    <loc>https://ivolv-tech.com/digital/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/unleasing/</loc>
+    <loc>https://ivolv-tech.com/data-science/</loc>
   </url>
   
   <url>
-    <loc>https://dmishevchenko.github.io/tags/</loc>
+    <loc>https://ivolv-tech.com/digital-services/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/engage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/empower/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/home/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/iivospas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/industry/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/insurance/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/intelligence/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/products/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/services/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/transportation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/unleasing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/signin-success/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/signin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivolv-tech.com/tags/</loc>
     <priority>0</priority>
   </url>
   

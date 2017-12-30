@@ -31,3 +31,18 @@ $('#itm-2').on('click', function(event){
    $('.first-content').css('display','none')          
    $('.second-content').css('display','block')          
              });
+$('#address-item').on('click', function(event){         
+   $('#contact').css('display','none')          
+   $('#address').css('display','block')          
+   $('#careers').css('display','none')          
+             });
+$('#contact-item').on('click', function(event){         
+   $('#contact').css('display','block')          
+   $('#address').css('display','none')          
+   $('#careers').css('display','none')          
+             });
+$('#careers-item').on('click', function(event){         
+   $('#contact').css('display','none')          
+   $('#address').css('display','none')          
+   $('#careers').css('display','block')          
+             });
