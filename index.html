@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
 </head>
 <body>
     <div class="top-section">
@@ -57,11 +58,11 @@
          <div id="wrapper">
   <div class="chat">
     <div class="chat-container">
-      <div class="chat-listcontainer">
 
-        <ul class="chat-message-list">
-        </ul>
-      </div>
+
+        <div class="chat-message-list">
+        </div>
+    
     </div>
   </div>
 </div>
@@ -105,178 +106,8 @@
              </div>
              
          </div>
-<script>
-    $("#button").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#wrapper").offset().top
-    }, 1000)});
 
-    var chatMessages = [{
-  name: "ms1",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-  img:true
-},
-{
-      name: "ms2",
-  delay: 1000,
-  align: "right",
-  showTime: true,
-  msg:'Nulla malesuada'
-},
-{
-      name: "ms3",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-  msg:'Nulla malesuada fermentum purus. Nullam blandit ligula eget hendrerit ultricies. Suspendisse potenti. Phasellus euismod ultrices ligula, venenatis suscipit mauris tempor id.'
-}
-                   ];
-    var shop=[{
-        name: "ms1",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-img:true
-    },{
-          name: "ms1",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-        msg:"there is a shop chat"
-    }]
-    var night=[{
-        name: "ms1",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-img:true
-    },
-    {
-          name: "ms1",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-        msg:"there is a night life chat"
-    }       ];
-    var food=[{
-        name: "ms1",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-img:true
-    },{
-          name: "ms1",
-  delay: 1000,
-  align: "left",
-  showTime: true,
-        msg:"there is a food chat"
-    }       ];
-var chatDelay = 0;
-
-function onRowAdded() {
-  $('.chat-container').animate({
-    scrollTop: $('.chat-container').prop('scrollHeight')
-  });
-};
-$.each(chatMessages, function(index, obj) {
-  chatDelay = chatDelay+1000;
-  chatDelay2 = chatDelay + obj.delay;
-  chatDelay3 = chatDelay2 + 10;
-  scrollDelay = chatDelay;
-  chatTimeString = " ";
-  msgname = "." + obj.name;
-  msginner = ".messageinner-" + obj.name;
-  spinner = ".sp-" + obj.name;
-
-    if(obj.img == true){
-          $(".chat-message-list").append("<li class='message-" + obj.align + " " + obj.name + "' hidden><div class='sp-" + obj.name + "'><span class='spinme-" + obj.align + "'><div class='spinner'><div class='bounce1'></div><div class='bounce2'></div><div class='bounce3'></div></div></span></div><div class='messageinner-" + obj.name + "' hidden><div class='received-photo'><img src='img/chat-img.png'></div>" +  "</div></li>");
-    }
-    else{
-         $(".chat-message-list").append("<li class='message-" + obj.align + " " + obj.name + "' hidden><div class='sp-" + obj.name + "'><span class='spinme-" + obj.align + "'><div class='spinner'><div class='bounce1'></div><div class='bounce2'></div><div class='bounce3'></div></div></span></div><div class='messageinner-" + obj.name + "' hidden><div class='message-text'>" + obj.msg + "</div>" +"</div></li>");
-    }
     
- 
-  $(msgname).delay(chatDelay).fadeIn();
-  $(spinner).delay(chatDelay2).hide(1);
-  $(msginner).delay(chatDelay3).fadeIn();
-  setTimeout(onRowAdded, chatDelay);
-  setTimeout(onRowAdded, chatDelay3);
-  chatDelay = chatDelay3;
-});
-    $('#shop').on('click',function(){
-        console.log(chatDelay);
-         $(".chat-message-list").append()
-        $.each(shop, function(index, obj) {
-      chatDelay =1000;
-  chatDelay2 = chatDelay + obj.delay;
-  chatDelay3 = chatDelay2;
-  scrollDelay = chatDelay;
-
-  msgname = "." + obj.name;
-  msginner = ".messageinner-" + obj.name;
-  spinner = ".sp-" + obj.name;
-
-  
-          $(".chat-message-list").html("<li class='message-" + obj.align + " " + obj.name + "' hidden><div class='sp-" + obj.name + "'><span class='spinme-" + obj.align + "'><div class='spinner'><div class='bounce1'></div><div class='bounce2'></div><div class='bounce3'></div></div></span></div><div class='messageinner-" + obj.name + "' hidden><div class='received-photo'><img src='img/3.png'></div>" +  "</div></li>");
-    
- 
-  $(msgname).delay(chatDelay).fadeIn();
-  $(spinner).delay(chatDelay2).hide(1);
-  $(msginner).delay(chatDelay3).fadeIn();
-});
-    });  $('#food').on('click',function(){
-        console.log(chatDelay);
-         $(".chat-message-list").append()
-        $.each(food, function(index, obj) {
-            console.log(chatDelay);
-     chatDelay =1000;
-          
-  chatDelay2 = chatDelay + obj.delay;
-  chatDelay3 = chatDelay2;
-  scrollDelay = chatDelay;
-
-  msgname = "." + obj.name;
-  msginner = ".messageinner-" + obj.name;
-  spinner = ".sp-" + obj.name;
-
-  
-          $(".chat-message-list").html("<li class='message-" + obj.align + " " + obj.name + "' hidden><div class='sp-" + obj.name + "'><span class='spinme-" + obj.align + "'><div class='spinner'><div class='bounce1'></div><div class='bounce2'></div><div class='bounce3'></div></div></span></div><div class='messageinner-" + obj.name + "' hidden><div class='received-photo'><img src='img/2.png'></div>" +  "</div></li>");
-    
- 
-  $(msgname).delay(chatDelay).fadeIn();
-  $(spinner).delay(chatDelay2).hide(1);
-  $(msginner).delay(chatDelay3).fadeIn();
-});
-    });
-    $('#night').on('click',function(){
-         $(".chat-message-list").append()
-        $.each(night, function(index, obj) {
-            console.log(chatDelay);
-            chatDelay =1000;
-          
-  chatDelay2 = chatDelay + obj.delay;
-  chatDelay3 = chatDelay2;
-  scrollDelay = chatDelay;
-
-  msgname = "." + obj.name;
-  msginner = ".messageinner-" + obj.name;
-  spinner = ".sp-" + obj.name;
-
-  
-          $(".chat-message-list").html("<li class='message-" + obj.align + " " + obj.name + "' hidden><div class='sp-" + obj.name + "'><span class='spinme-" + obj.align + "'><div class='spinner'><div class='bounce1'></div><div class='bounce2'></div><div class='bounce3'></div></div></span></div><div class='messageinner-" + obj.name + "' hidden><div class='received-photo'><img src='img/1.png'></div>" +  "</div></li>");
-    
- 
-  $(msgname).delay(chatDelay).fadeIn();
-  $(spinner).delay(chatDelay2).hide(1);
-  $(msginner).delay(chatDelay3).fadeIn();
-});
-    });
-  
-    
-    </script>
-    
-
+    <script src="main.js"></script>
 </body>
 </html>
