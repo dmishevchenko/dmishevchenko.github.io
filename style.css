@@ -9,7 +9,7 @@ body {
 
 .chat-message-list {
     margin: 0px;
-    padding: 0px;
+ padding-right: 5px;
     list-style: none;
     height: auto;
     width: 100%;
@@ -17,7 +17,7 @@ body {
 }
 .chat-message-list::-webkit-scrollbar {
     width: 5px;
-    padding-left: 1px;
+  
 }
  
 .chat-message-list::-webkit-scrollbar-track {
