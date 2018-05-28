@@ -1,113 +1,561 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TT-landing</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+  <title>Alstar - Bootstrap one page parallax template</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
 
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+  <!-- =======================================================
+    Theme Name: Alstar
+    Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
+
 <body>
-    <div class="top-section">
-        <div class="container">
-            <header>
-                <div class="logo">attractie</div>
-                <div class="icons-place">
-                    <a href="#"><img src="img/fb-icon.png" alt="fb"></a>
-                    <a href="#"><img src="img/tw-icon.png" alt="tw"></a>
-                </div>
-            </header>
-            <div class="main-info">
-                <div class="main-text"><span>Chatbot which helps millennials </span> <br>Find unique attractions</div>
-                <button id="button">Get Started</button>
-            </div>
-        </div>
-         </div>    
-   <div class="container">
-    <div class="intelligence">
-       
-            <div class="main-text"><span>Powered by artificial intelligence </span> <br>Designed by travelers</div>
-       
-        <div class="questions">
-            <div class="question-block"><div class="img-question"><img src="img/1.png" alt=""></div>
-            <span>Night life </span> <br>Looking for night clubs and lounge zones? Explore available places and events
-            </div> <div class="question-block"><div class="img-question"><img src="img/2.png" alt=""></div>
-           <span>Food</span> <br> Looking work an unique cafe? Explore top-rated spaces.
-            </div> <div class="question-block"><div class="img-question"><img src="img/3.png" alt=""></div>
-            <span>Shopping</span> <br> Going to buy new laptop? Explore available stores around you
-            </div>
-        </div>
-         </div>
-         </div>
-         <div class="avaible-section">
-           <div class="container">
-            <div class="avaible"><div class="avaible-description">
-                <div class="main-text"><span>Available for you anytime </span>Everywhere</div>
-                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt interdum sapien. <br> <br> Nulla malesuada fermentum purus. Nullam blandit ligula eget hendrerit ultricies. Suspendisse potenti. Phasellus euismod ultrices ligula, venenatis suscipit mauris tempor id.</div>
-                <button>Get Started</button>
-            </div>
-           
-               
-  
-    <div class="chat-field">
-     
-         <div id="wrapper">
-  <div class="chat">
-    <div class="chat-container">
 
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-        <div class="chat-message-list">
-        </div>
+        <!-- Logo text or image -->
+        <a class="navbar-brand" style="padding: 0" href="index.html"><img style="width: 50px;height: 50px;" src="img/logo.jpg" alt="ksa"></a>
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current"><a href="#about">Про Нас</a></li>
+        <li><a href="http://iot.lviv.ua/">Інтернет Речей</a></li>
+          <li><a href="#portfolio">Роботи</a></li>
+          <li><a href="#team">Викладачі</a></li>
+          <li><a href="#contact">Контакти</a></li>
     
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro area -->
+  <div id="intro">
+    <div class="intro-text">
+      <div class="container">
+        <div class="col-md-12">
+          <div id="rotator">
+            <h1><span class="1strotate">Перша спеціальність в Україні 
+,Національний університет «Львівська політехніка» 
+,Посвята в студенти на Львів ІТ Арені,Гарвард і Стенфорд у Політехніці:
+</span></h1>
+            <div class="line-spacer"></div>
+            <p><span class="2ndrotate" style="font-size:22px;font-weight:700">"Інтернет речей"
+
+освітня програма розроблена з провідними ІТ компаціями,Кафедра: Комп'ютеризовані Системи Автоматики,Перший набір студентів з 2016 року,кафедра КСА бере участь у пілотному проекті зі змішаного навчання</span></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-  <div class="chats">
-      <div class="shopping" id="shop"><div class="circle">
-          <img src="img/shopping.png" alt="shop">
+
+  <!-- About -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Про нас</h2>
+            <div class="heading-line"></div>
+            <p>Ми готуємо кращих спеціалістів у сфері Комп'ютеризованих Систем Автоматики </p>
+          </div>
+        </div>
       </div>
-      Shopping
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/about-img.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+           <h2>Гарвард і Стенфорд у Політехніці:
+кафедра КСА бере участь у пілотному проекті зі змішаного навчання</h2>
+          <h3>Кафедра комп’ютеризованих систем автоматики — це навчально-науковий підрозділ Інституту комп’ютерних технологій, автоматики та метрології Львівської політехніки, створений у 2006 році при реорганізації кафедри автоматики і телемеханіки</h3>
+        
+        </div>
       </div>
-      <div class="night-life" id="night"><div class="circle"><img src="img/night.png" alt=""></div>
-      Night
+    </div>
+  </section>
+
+  <!-- Parallax 1 -->
+  <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="color-light">
+            <h2 class="wow bounceInDown" data-wow-delay="0.5s">Ми співпрацюємо</h2>
+            <p class="lead wow bounceInUp" data-wow-delay="1s">з найкращими IT-компаніями Львова</p>
+          </div>
+        </div>
       </div>
-      <div class="food" id="food"><div class="circle"><img src="img/food.png" alt=""></div>Food</div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Чому саме ми?</h2>
+            <div class="heading-line"></div>
+            <p>Ми навчимо вас кращим практикам створення сучасних систем автоматизації</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-service" class="service carousel slide">
+
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Сучасна навчальна програма</h4>
+                      <p>Уже з першого курсу ми навчатимемо студентів профільним дисциплінам. При наповненні кожного предмету використані програми провідних технічних університетів – MIT, Berkley, Harvard University. Наприклад, курс «Алгоритмічні мови і програмування, ч.1» базуватиметься на програмі предмету «Introduction to Computer Science (CS50)» Гарвардського університету, який вважається одним з найкращих у світі.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/1.jpg" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div >
+                               <h4>Робота в ІТ. </h4>
+                      <p>Програма створена фахівцями для фахівців. Ми готуємо практиків, які потрібні ІТ-компаніям. Ми хочемо, аби після випуску ти долучився до команди експертів. Тому ми зробили програму орієнтованою на ринок, тренди та унікальні знання.</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot">
+                      <img style="max-height: 243px" src="img/screenshots/2.jpg" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div>
+                      <h4>Ми навчимо тебе </h4>
+                      <p>
+                      <ul class="list-iot">
+                      <li>Створити розумний пристрій</li>
+                      <li>З’єднати розумні пристрої в цілісну систему</li>
+                      <li>Реалізувати обмін інформацією між такими пристроями</li>
+                      <li>Запрограмувати пристрої для взаємодії із довкіллям</li>
+                      <li>Розробити програмне забезпечення для інтеракції споживачів та розумних пристроїв із використанням комп’ютерів, планшетів та мобільних телефонів</li>
+                      <li>Доносити інформацію до споживача у найдоступнішій формі.</li>
+                      </ul>
+
+
+
+
+</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div>
+                      <img style="max-height: 243px" src="img/screenshots/1.jpg" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-service" data-slide-to="1"></li>
+              <li data-target="#carousel-service" data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works -->
+  <section id="portfolio" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Найкращі дипломні роботи</h2>
+            <div class="heading-line"></div>
+            <p>We’ve been building unique digital products, platforms, and experiences for the past 6 years.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <iframe width="800" height="508" src="https://www.youtube.com/embed/z2s52286fMQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div class="item">
+     <iframe width="800" height="508" src="https://www.youtube.com/embed/1r9bVwQYRQU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <div class="item">
+     <iframe width="800" height="508" src="https://www.youtube.com/embed/uFKZ3AE0U_o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div> 
+    <div class="item">
+    <iframe width="800" height="508" src="https://www.youtube.com/embed/7dotEDXN5XU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div> 
+    <div class="item">
+     <iframe width="800" height="508" src="https://www.youtube.com/embed/mvUU9urK0D0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div> 
+    <div class="item">
+     <iframe width="800" height="508" src="https://www.youtube.com/embed/01WVK4SOYjY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
   </div>
 
-             </div>
-               </div>
-             <div class="line"></div>
-             <footer>
-                 <div class="copy">
-                     <div class="logo">attractie</div>
-                     <div class="copyright">&copy; Copyright Attractie</div>
-                 </div>
-                 <div class="nav-items">
-                 <div class="footer-links">
-                 <div class="link heading">Social</div>
-                 <div class="link"><a href="#">Facebook</a></div>
-                 <div class="link"><a href="#">Twitter</a></div>
-                 <div class="link"><a href="#">Linkedin</a></div>
-                 <div class="link"><a href="#">Angel List</a></div>
-                 </div>
-                 <div class="footer-links">
-                         <div class="link heading">Navigation</div>
-                 <div class="link"><a href="#">Careers</a></div>
-                 <div class="link"><a href="#">Our Services</a></div>
-                 <div class="link"><a href="#">About us</a></div>
-                 <div class="link"><a href="#">Contact</a></div>
-                 </div>
-                 </div>
-             </footer>
-             </div>
-             
-         </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" style="display: flex;justify-content: center;align-items: center;" href="#myCarousel" data-slide="prev">
+    <i class="fas fa-chevron-circle-left" style="font-size: 44px;color: #3773ed"></i>
+  </a>
+  <a class="right carousel-control" style="display: flex;justify-content: center;align-items: center;"  href="#myCarousel" data-slide="next">
+  <i class="fas fa-chevron-circle-right" style="font-size: 44px;color: #3773ed"></i>
+  </a>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Parallax 2 -->
+  <section id="parallax2" style="padding: 100px 0" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="clients">
+            <li class="wow fadeInDown" data-wow-delay="0.3s"><a href="#"><img style="max-height: 90px" src="img/clients/philips.png" alt="" /></a></li>
+               <li class="wow fadeInDown" data-wow-delay="0.9s"><a href="#"><img style="height: 70px" src="img/clients/altera.jpg" alt="" /></a></li>
+            <li class="wow fadeInDown" data-wow-delay="0.6s"><a href="#"><img style="max-height: 90px" src="img/clients/PK.jpg" alt="" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    
-    <script src="main.js"></script>
+  <!-- Team -->
+  <section id="team" class="home-section bg-white">
+   <h2>Наші викладачі</h2>
+   <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active multi-item">
+    <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+           <div class="fix-width"><img src="img/team/buchma.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Бучма Ігор Михайлович</h4>
+            <p>професор кафедри</p>
+          </div>
+    </div> <div class="multi-item-item">
+       <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+           <div class="fix-width"><img src="img/team/viter.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Вітер Олександр Сергійович</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div>  <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+             <div class="fix-width">    <img src="img/team/vlah.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Влах-Вигриновська Галина Іванівна</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div> <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+             <div class="fix-width">  <img src="img/team/garanuk.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Гаранюк Ігор Павлович</h4>
+            <p> доцент кафедри</p>
+          </div>
+    </div>
+    <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
+             <div class="fix-width">  <img src="img/team/dzelendzyak.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Дзелендзяк Уляна Юріївна</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div>
+    </div>    
+    <div class="item multi-item">
+    <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.3s">
+           <div class="fix-width"><img src="img/team/ivanuk.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Іванюк Олег Олексійович</h4>
+            <p>старший викладач кафедри</p>
+          </div>
+    </div> <div class="multi-item-item">
+       <div class="box-team wow bounceInUp" data-wow-delay="0.3s">
+           <div class="fix-width"><img src="img/team/kovela.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Ковела Іван Михайлович</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div>  <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.3s">
+             <div class="fix-width">    <img src="img/team/muchuda.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Мичуда Зиновій Романович</h4>
+            <p>професор кафедри</p>
+          </div>
+    </div> <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.3s">
+             <div class="fix-width">  <img src="img/team/muschusun.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Мищишин Володимир Михайлович</h4>
+            <p> доцент кафедри</p>
+          </div>
+    </div>
+    <div class="multi-item-item">
+         <div class="box-team wow bounceInUp" data-wow-delay="0.3s">
+             <div class="fix-width">  <img src="img/team/mokrenko.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Мокренко Петро Володимирович</h4>
+            <p>профессор кафедри</p>
+          </div>
+    </div>
+    </div>
+    <div class="item multi-item">
+    <div class="multi-item-item">
+         <div class="box-team" data-wow-delay="0.1s">
+           <div class="fix-width"><img src="img/team/Nakonech.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Наконечний Адріан Йосифович</h4>
+            <p>професор кафедри</p>
+          </div>
+    </div> <div class="multi-item-item">
+       <div class="box-team" data-wow-delay="0.1s">
+           <div class="fix-width"><img src="img/team/markiyan.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Наконечний Маркіян Володимирович</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div>  <div class="multi-item-item">
+         <div class="box-team" data-wow-delay="0.1s">
+             <div class="fix-width">    <img src="img/team/pavelchak.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Павельчак Андрій Геннадійович</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div> <div class="multi-item-item">
+         <div class="box-team" data-wow-delay="0.1s">
+             <div class="fix-width">  <img src="img/team/proc.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Проць Роман-Богдан Володимирович</h4>
+            <p> доцент кафедри</p>
+          </div>
+    </div>
+    <div class="multi-item-item">
+         <div class="box-team " data-wow-delay="0.1s">
+             <div class="fix-width">  <img src="img/team/samotuy.jpg" alt="" class="img-circle img-responsive" /></div>
+            <h4>Самотий Володимир Васильович</h4>
+            <p>профессор кафедри</p>
+          </div>
+    </div>
+    </div>   <div class="item multi-item">
+    <div class="multi-item-item" style="flex-basis: 50%">
+         <div class="box-team" data-wow-delay="0.1s">
+           <div class="fix-width"><img src="img/team/stahiv.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Стахів Роман Іванович</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div> <div class="multi-item-item" style="flex-basis: 50%">
+       <div class="box-team" data-wow-delay="0.1s">
+           <div class="fix-width"><img src="img/team/stepanyak.jpg" alt="" class="img-circle img-responsive" /></div>
+            
+            <h4>Cтепаняк Михайло Васильович</h4>
+            <p>доцент кафедри</p>
+          </div>
+    </div> 
+    </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" style="display: flex;justify-content: center;align-items: center;" href="#myCarousel2" data-slide="prev">
+    <i class="fas fa-chevron-circle-left" style="font-size: 44px;color: #3773ed"></i>
+  </a>
+  <a class="right carousel-control" style="display: flex;justify-content: center;align-items: center;"  href="#myCarousel2" data-slide="next">
+  <i class="fas fa-chevron-circle-right" style="font-size: 44px;color: #3773ed"></i>
+  </a>
+</div>
+      </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Напишіть нам</h2>
+            <div class="heading-line"></div>
+            <p> Якщо у вас є якісь запитання напишіть нам ,і ми відповімо вам найблищий часом
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+
+          <form action="" method="post" class="form-horizontal contactForm" role="form">
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-md-offset-2 col-md-8">
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-offset-2 col-md-8">
+                <button type="submit" class="btn btn-theme btn-lg btn-block">Send message</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bottom widget -->
+  <section id="bottom-widget" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-map-marker fa-4x"></i>
+            <h5>Наше розташування</h5>
+            <p>
+             
+вул. Ст. Бандери 28а, 79013, Львів; <br> 5-й корпус, кімната 601
+
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInUp">
+            <i class="fa fa-phone fa-4x"></i>
+            <h5>Номери телефону:</h5>
+            <p>
++38(032) 258-24-64
+
+ <br>
++38(032) 258-21-97
+
+
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInRight">
+            <i class="fa fa-envelope fa-4x"></i>
+            <h5>Напишіть нам</h5>
+            <p>
+            ksa@lp.edu.ua
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.384873028947!2d24.00623931570927!3d49.83522547939525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add78dd898fdb%3A0x8f8a7845779b2296!2z0JrQvtGA0L_Rg9GBIOKEljUg0J3QoyAi0JvQnyIsINCy0YPQu9C40YbRjyDQodGC0LXQv9Cw0L3QsCDQkdCw0L3QtNC10YDQuCwgMjjQkCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1478117790391" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/mb.bgndGallery.js"></script>
+  <script src="js/mb.bgndGallery.effects.js"></script>
+  <script src="js/jquery.simple-text-rotator.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
 </body>
 </html>
